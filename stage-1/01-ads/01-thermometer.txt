@@ -1,0 +1,20 @@
+--DECLARE--
+n, celcius: number
+tipe: String
+
+--DESCRIPTION--
+START
+INPUT n
+INPUT tipe
+
+IF tipe is "fahrenheit" THEN 
+	celcius <- (n-32) * (5/9) 
+ELSE IF tipe is "kelvin" THEN
+	celcius <- (n-273.15)
+ELSE 
+	celcius <- n
+ENDIF
+ENDIF
+
+DISPLAY celcius
+STOP

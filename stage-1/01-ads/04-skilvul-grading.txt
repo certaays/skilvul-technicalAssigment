@@ -1,0 +1,23 @@
+--DECLARE--
+grade: number
+n: number
+finalGrade: number
+
+--DECLARATION
+START
+INPUT grade
+
+IF grade <=100 AND grade >= 68 THEN
+	n <- grade mod 5
+	IF n > 2 THEN
+		finalGrade <- grade + (5-n)
+	ELSE
+		finalGrade <- grade
+	ENDIF
+ELSE IF grade < 68 AND grade >= 0 THEN 
+	finalGrade <- grade
+ENDIF
+ENDIF
+
+DISPLAY finalGrade
+STOP

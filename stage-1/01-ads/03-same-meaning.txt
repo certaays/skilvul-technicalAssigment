@@ -1,0 +1,43 @@
+--DECLARE--
+kata: Array[1...N] of String
+new: Array[1...N] of String
+temp: Array[1...N] of String
+a: number
+x: number
+i: number
+j: number
+k: number
+
+--DESCRIPTION--
+START
+
+SET a <- 0
+SET i <- 0
+SET j <- 0
+
+INPUT kata
+x <- length(kata)-1
+
+FOR i TO x DO
+  IF kata[i] <- ' ' THEN
+    kata[i] <- RETURN 0
+  ELSE
+    new[j] <- kata[i]
+    j <- j+1
+  ENDIF
+ENDFOR
+
+k <- j-1
+
+FOR k DOWNTO 0
+  temp[a] <- new[k]
+  a <- a+1
+ENDFOR
+
+IF new = temp THEN 
+  DISPLAY "BENAR"
+ELSE
+  DISPLAY "SALAH"
+ENDIF
+
+STOP

@@ -1,0 +1,22 @@
+--DECLARE--
+N, a: number
+
+--DESCRIPTION--
+START
+INPUT N
+SET a <- 1
+
+FOR a TO N DO
+	IF a mod 3 is 0 THEN
+		DISPLAY "Fizz"
+	ELSE IF a mod 5 is 0 THEN
+		DISPLAY "Buzz"
+	ELSE IF a mod 5 is 0 AND a mod 3 is 0 THEN
+		DISPLAY "FizzBuzz"
+	ELSE 
+		DISPLAY a
+	ENDIF
+	ENDIF
+	ENDIF	
+ENDFOR
+STOP

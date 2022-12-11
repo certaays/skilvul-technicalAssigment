@@ -1,0 +1,10 @@
+1. Apa itu localStorage?
+Local storage adalah penyimpanan data-data dalam web yang akan disimpan
+tanpa adanya waktu kadaluarsanya. atau dengan kata lain, data ini 
+tidak akan hilang sampai datanya dihapus
+2. Apa itu cookies?
+Cookies adalah kumpulan data atau informasi yang berisikan jejak dari aktivitas pengguna pada sebuah web.
+3. Apa perbedaan antara localStorage dan sessionStorage?
+untuk local storage, tidak ada waktu kadaluarsanya sehingga akan terus menerus di simpan dan akan hilang hanya saat data itu dihapus.
+Sedangkan untuk session storage, waktu dari data ini akan ada waktu kadaluarsanya, sehingga apabila data tersebut sudah melewati waktu kadaluarsanya,
+data tersebut akan otomatis terhapus dan hilang(tidak disimpan lagi)

@@ -1,0 +1,14 @@
+1. What is the difference between git reset and git revert. When would you use one over the other?
+git reset bisa menghapus sejarah dari perubahan sehingga kita tidak bisa lagi kembali ke masa depan, 
+sedangkan git revert akan menghasilkan perubahan pada commit terbaru tanpa menghapus sejarah perubahannya.
+
+2. What is the difference between git merge and git rebase. When would you use one over the other?
+git merge memiliki fungsi untuk meleburkan state terakhir dari kedua branch, setelah itu di dalam branch sumber akan terdapat commit baru yang menyatakan bahwa sudah ada merge
+sedangkan, git rebase berfungsi untuk menyatukan suatu branch ke ujung branch lain dengan memindahkan seluruh sejarah commit dari sebuah branch tersebut
+
+3. What is the difference between git stash pop and git stash apply. When would you use one over the other?
+Stash akan dihapus apabila menggunakan git stash pop 
+sedangkan apabila memakai git stash apply, stash yang baru saja di restore ke sumber tidak akan dihapus
+
+4. What kinds of things can you do in interactive mode when rebasing?
+interactive rebasing bisa figunakan untuk commit dalam berbagai cara seperti mengedit, menghapus, atau squashing.
